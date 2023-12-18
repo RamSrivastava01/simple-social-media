@@ -13,3 +13,24 @@
 .sidebar {
   height: 100%;
 }
+
+.postCard {
+  margin: 20px;
+  box-shadow: grey 8px 5px 10px;
+  width: 25rem;
+}
+
+.hashTag {
+  margin: 4px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.reactions {
+  margin: 16px 1px 12px 1px;
+}
+
+.createPost {
+  width: 80%;
+  margin: 0 auto;
+}

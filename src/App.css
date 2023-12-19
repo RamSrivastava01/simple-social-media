@@ -34,3 +34,17 @@
   width: 80%;
   margin: 0 auto;
 }
+
+.welcomeMessage {
+  text-align: center;
+}
+.FetchPostBtn {
+  width: 15%;
+  margin: 34px 25rem;
+  font-weight: bold;
+}
+.postList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}

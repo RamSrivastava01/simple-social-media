@@ -1,12 +1,11 @@
-const WelcomeMessage = ({ onGetPostClick }) => {
+const WelcomeMessage = ({}) => {
   return (
     <>
-      <h1 className="welcomeMessage">There are no posts yet.</h1>
-      <button
-        onClick={onGetPostClick}
-        type="button"
-        className="btn btn-primary FetchPostBtn"
-      >
+      <h1 className="welcomeMessage">
+        {" "}
+        <center> There are no posts yet. </center>
+      </h1>
+      <button type="button" className="btn btn-primary FetchPostBtn">
         Fetch Posts
       </button>
     </>
